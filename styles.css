@@ -37,7 +37,7 @@ body {
   border-radius: 20px;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #595959;
   text-align: center;
   cursor: grab;
 }
@@ -64,7 +64,9 @@ body {
 }
 
 .hold {
-  border: 5px solid #eee;
+  background: repeating-linear-gradient(45deg, #cacaca, #cacaca 10px, #fafafa 10px, #fafafa 20px);
+  border: 6px solid #cacaca;
+  color: rgb(40, 40, 40);
 }
 
 .hide {
@@ -72,5 +74,6 @@ body {
 }
 
 .hovered {
-  border-top: 2px solid #8ed7ed;
+  border-radius: 20px;
+  background-color: #d5d5d5;
 }
